@@ -1,0 +1,92 @@
+.content {
+    max-width: 960px;
+    margin: auto;
+}
+h1 {text-align: center;}
+h2 {text-align: center;}
+
+h3 {
+    color: green;
+    size: 100px;
+    text-align: center;
+}
+#scary-font {
+    color: red;
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.center-text{
+    text-align: center;
+}
+.list-align{
+    display: inline-block;
+    text-align: left;
+}
+
+.container {
+    position: relative;
+    align-self: center;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: red;
+    font-size: 100px;
+    font-family: "Creepster", system-ui;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.nav {
+    list-style-type: none;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.nav li {
+    float: left;
+}
+ul.nav li a {
+    display: block;
+    padding: 8px 16px;
+    color: black;
+    text-decoration: none;
+}
+ul.nav a:hover {
+    background-color: #555;
+    color: white;
+}
+.active {
+    background-color: antiquewhite;
+}
